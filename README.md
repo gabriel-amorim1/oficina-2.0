@@ -10,7 +10,7 @@ Após instalá-lo, baixe o arquivo .zip aqui contido (Codificar Oficina2.0 13-11
 Execute o XAMPP Control Panel, e aperte em "Start" no Apache, aperte em "Start" no MySQL e depois em "Admin".
 Depois de clicar em "Admin", abrirá a página do banco de dados(caso não abra é so digitar na barra de endereços http://localhost/phpmyadmin/ ). Crie um banco de dados com o nome "oficina". Agora são dadas duas opções, escolha o que achar melhor:
 
-1° opção: baixar o arquivo SQL disponibilizado aqui chamado "oficina" e importá-lo na base de dados criada. Essa opção cria 25 linhas na tabela "orcamento".
+1° opção: baixar o arquivo SQL disponibilizado aqui chamado "oficina" e importá-lo na base de dados criada. Essa opção cria 97 linhas na tabela "orcamento".
 
 2° opção: Usar o seeder contido na aplicação (os dados são gerados pela biblioteca Faker do laravel)
 Para isso é preciso ter instalado o seguinte programa:
