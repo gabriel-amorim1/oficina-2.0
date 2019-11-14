@@ -1,5 +1,5 @@
 # Oficina-2.0
-Desafio Técnico PHP - Básico - Codificar
+Desafio Técnico PHP - Básico - Codificar -
 Gabriel de Amorim Machado
 
 Para rodar o projeto são necessários ter o seguinte programa instalado:
