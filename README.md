@@ -23,7 +23,7 @@ composer dump-autoload
 Aperte enter e quando acabar de executar digite o seguinte comando:
 php artisan db:seed
 
-Com isso serão gerados 100 linhas de dados na tabela "orcamento". Caso queira aumentar o número de linhas geradas, antes de executar essa segunda opção, vá na pasta do projeto->database->seeds->OrcamentoTableSeeder.php e altere na linha 14 ("factory(App\Orcamento::class,24)->create();") o número "100" pelo número desejado.
+Com isso serão gerados 100 linhas de dados na tabela "orcamento". Caso queira aumentar o número de linhas geradas, antes de executar essa segunda opção, vá na pasta do projeto->database->seeds->OrcamentoTableSeeder.php e altere na linha 14 ("factory(App\Orcamento::class,100)->create();") o número "100" pelo número desejado.
 
 Para acessar a página inicial da aplicação é só digitar na barra de endereços "http://localhost/oficina/public/home".
 
