@@ -27,5 +27,5 @@ Com isso serão gerados 100 linhas de dados na tabela "orcamento", 100 linhas na
 
 Para acessar a página inicial da aplicação é só digitar na barra de endereços "http://localhost/oficina/public/home".
 
-
+Para que um orçamento seja cadastrado, deverão ser feitos previamente o cadastro do vendedor e cliente, pois os id's de cada são chave estrangeira da tabela de 'orcamento'. Os id's de todas as tabelas são gerados automaticamente e a data e hora do orçamento é a mesma do computador naquele momento do cadastro(por isso não existem campos para id ou data/hora na tela de cadastro). 
 
