@@ -25,6 +25,7 @@ class CreateOrcamentoTable extends Migration
             $table->double("Valor");
             $table->timestamps();
         });
+        Artisan::call('db:seed', array('--class' => 'OrcamentoTableSeeder', '--force' => null));
     }
 
     /**

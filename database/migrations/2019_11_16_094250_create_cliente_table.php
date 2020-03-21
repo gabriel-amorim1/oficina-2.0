@@ -21,6 +21,7 @@ class CreateClienteTable extends Migration
             $table->string('telefone');
             $table->timestamps();
         });
+        Artisan::call('db:seed', array('--class' => 'ClienteTableSeeder', '--force' => null));
     }
 
     /**

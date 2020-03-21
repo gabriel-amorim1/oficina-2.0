@@ -21,6 +21,7 @@ class CreateVendedorTable extends Migration
             $table->string('telefone');
             $table->timestamps();
         });
+        Artisan::call('db:seed', array('--class' => 'VendedorTableSeeder', '--force' => null));
     }
 
     /**
