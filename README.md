@@ -3,7 +3,7 @@
 Para rodar o projeto são necessários ter o seguinte programa instalado:
 https://www.apachefriends.org/pt_br/index.html (XAMPP)
 
-Após instalá-lo, baixe o arquivo .zip aqui contido (Oficina2.0) e descompacte-o na pasta htdocs do xampp. Ex: C:\xampp\htdocs 
+Após instalá-lo, clone o projeto na pasta htdocs do xampp. Ex: C:\xampp\htdocs 
 
 Execute o XAMPP Control Panel, e aperte em "Start" no Apache, aperte em "Start" no MySQL e depois em "Admin".
 Depois de clicar em "Admin", abrirá a página do banco de dados(caso não abra é so digitar na barra de endereços http://localhost/phpmyadmin/ ). Crie um banco de dados com o nome "oficina". Agora são dadas duas opções, escolha o que achar melhor:
